@@ -8,6 +8,7 @@
 body{
     overflow-x: hidden;
     overflow-y: scroll;
+    padding-bottom: 100rem;
 }
 .container{
     width: 1350px;
@@ -387,4 +388,71 @@ header{
 }
 .market-biz-pic img{
     width: 90%;
+}
+
+.market-statistic-cont{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.market-stat{
+    width: 80%;
+    padding: 0 0 0 5rem;
+}
+
+.market-statistic-cont h4{
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1rem 0;
+}
+
+.market-statistic-cont p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 70%;
+}
+
+.market-statistic-cont h5{
+    color: #008000;
+    padding: 1rem 0;
+    font-size: 1.2rem; 
+}
+.learn-more{
+    height: 45vh;
+    padding: 6rem 0 0 7rem;
+}
+
+.learn-more h4{
+    padding: 1rem 0;
+    font-size: 2rem;
+    line-height: 2rem;
+    width: 570px;
+    font-weight: 400;
+}
+
+.learn-more p{
+    font-size: 1.3rem;
+    width: 580px;
+    line-height: 2rem;
+}
+
+.learn-more p span{
+    font-weight: bold;
+}
+
+.learn-more h5{
+    color: #008000;
+    padding: 1rem 0;
+    font-size: 1.2rem; 
+}
+.advert{
+    display: flex;
+    justify-content: space-between;
+    background-color: #002e25;
+    color: white;
+}
+.green-bg{
+    display: flex;
+    flex-direction: column;
 }
