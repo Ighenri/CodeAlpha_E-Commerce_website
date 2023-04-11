@@ -8,7 +8,6 @@
 body{
     overflow-x: hidden;
     overflow-y: scroll;
-    padding-bottom: 100rem;
 }
 .container{
     width: 1350px;
@@ -196,6 +195,7 @@ header{
     padding: 1.2rem 2rem;
     color: #ffffff;
     border-radius: 5px;
+    font-size: 1rem;
 }
 
 .hero-btn:hover{
@@ -252,6 +252,15 @@ header{
     padding: 0 1rem;
     color: #ffffff;
 }
+.explore-img:hover{
+    transform: translateY(0%);
+   
+}
+.explore-img{
+     height: 100%;
+     transform: translateY(10%);
+     transition: all 0.3s ease-in-out;
+}
 
 .explore-img img{
     height: 25rem;
@@ -303,7 +312,7 @@ header{
 }
 
 .marketchild1 h3{
-    font-weight: 400;
+    font-weight: 300;
     font-size: 2.5rem;
     padding: .5rem 0;
 }
@@ -521,3 +530,161 @@ header{
     mix-blend-mode: multiply;
     filter: contrast(2);
 }
+
+.free-trail-section{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+   position: relative;
+   background-color: #fbf7ed;
+}
+.free-trail-section .last-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last-section h5{
+    font-size: 2rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+.last-section p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-bottom: 1.5rem;
+    width: 700px;
+}
+
+.last-btn{
+    border: 1px;
+    background: #008060;
+    padding: 1.2rem 2rem;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.last-btn:hover{
+    background-color: #2f554b;
+}
+
+.to-top{
+    position: absolute;
+    bottom: 3rem;
+    right: 6rem;
+    font-size: 1.2rem;
+}
+.to-top a{
+    color: #004c3f;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* _______________________________________________________________________________________________Footer _____________________________________________________________________________ */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color:#002e25;
+    height: 90vh;
+   
+}
+
+.footer-nav {
+   background-color: transparent;
+   margin-bottom: 1rem;
+   padding-left: 5rem;
+}
+.footer-nav ul{
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid  #484040;
+}
+.footer-nav li{
+    display: flex;
+    padding: 1.3rem 1rem;
+}
+.footer-nav li:hover{
+    border-bottom: 1px solid #d8caca; 
+}
+.footer-nav a{
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    font-weight: 400;
+    justify-content: space-between;
+}
+
+.other-links{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding-left: 5rem;
+}
+.other-links h5{
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.other-links div ul{
+    list-style: none;
+    font-size: .9rem;
+    padding-bottom: 1rem;
+}
+.other-links div ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    line-height: 2rem;
+}
+.other-links div ul li a:hover{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.online-ul{
+    margin-top: 2rem;
+}
+.footer-socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    border-top: 1px solid  #484040;
+}
+
+.socials{
+   padding-left: 5rem;
+    padding-top: 1rem;
+}
+
+
+.socials i{
+    padding-right: .7rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.location{
+    display: flex;
+    padding-right: 5rem;
+    padding-top: 1rem;
+}
+.location a{
+    padding-right: .7rem;
+    font-size: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
