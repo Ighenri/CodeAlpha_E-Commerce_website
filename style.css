@@ -489,7 +489,7 @@ header{
     padding-top: 3rem;
 }
 .advert .img-cont{
-    width: 95%;
+    width: 100%;
     padding-left: 6rem;
 }
 .advert .img-cont img{
@@ -501,7 +501,7 @@ header{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 90%;
+    width: 100%;
     text-align: center;
     background-color: #002e25;
     height: 100vh;
@@ -716,7 +716,7 @@ footer{
 }
 .other-links div ul li a:hover{
     color: #ffffff;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .online-ul{
@@ -745,7 +745,7 @@ footer{
 
 .location{
     display: flex;
-    padding-right: 5rem;
+    /* padding-right: 5rem; */
     padding-top: 1rem;
 }
 .location a{
@@ -1014,19 +1014,23 @@ footer{
     header{
         height: 6vh;
     }
+    .hero-page{
+        height: 62vh;
+    }
     .hero-left{
-        padding: 7rem 2rem;
+        /* padding: 7rem 2rem; */
     }
     .hero-right img{
         height: 60vh;
-        width: 80%;
+        width: 100%;
+        
     }
     .hero-left h4{
         padding-top: 5rem;
     }
     .explore-section{
-        height: 120vh;
-        margin-top: 0;
+        height: 260vh;
+        margin-top: 30rem;
     }
     .tablet{
         display: none;
@@ -1060,6 +1064,98 @@ footer{
         width: 80%;
         padding: 0 3rem;
     }
+    .advert .img-cont{
+        width: 70%;
+    }
+    .hreen-bg{
+        width: 70%;
+    }
+    .green-bg .cee-text{
+        width: 300px;
+        padding: 0;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .cee{
+        font-size: 1rem;
+    }
+
+    .customer-support{ 
+        padding-left: 1rem;
+
+    }
+    
+    .customer-support-text h4 {
+        font-size: 1.5rem;
+    }
+    
+    .customer-support-cont {
+        display: grid;
+        grid-template-columns: 250px 250px;
+        column-gap: 2rem;
+    }
+        
+    .customer-support-cont{
+        font-size: 1rem;
+    }
+    
+    .green {
+      font-size: 1rem;
+      color: #008060;
+      width: 80%;
+    }
+    .customer-support-img img {
+        width: 80%;    
+    }
+    .last-section h5{
+        font-size: 1.4rem;
+    }
+    .last-section p{
+        font-size: 1rem;
+    }
+    .to-top{
+        right: 12rem;
+    }
+    .last-btn{
+        padding: 1rem 1.5rem;
+    }
+    
+    .footer-nav{
+        padding-left: 3rem;
+    }
+    .other-links {
+        display: flex;
+        width: 88%;
+        justify-content: space-between;
+        font-size: .8rem;
+        padding-left: 3rem;   
+        }
+    .other-links div{
+        padding-right: .8rem;
+    }
+    .location {
+        padding-right: 10rem;
+    }
+
 }
-/* 
-finished with thee explore */
+@media (max-width: 500px) {
+    .header{
+
+    }
+
+
+
+    ::-webkit-scrollbar {
+        width: 2px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #808080;
+        border-radius: 5px;
+    }
+
+}
