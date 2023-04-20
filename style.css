@@ -19,8 +19,6 @@ body{
     margin: 0 1.8rem 0 .5rem;
 } 
 
-/* _________________________________________                                                        HEADER_____________________________________________________________________________________________________________________________________________________________________________________________ */
-
 header{
     height: 11vh;
     background-color: #fbf7ed;
@@ -146,7 +144,6 @@ header{
     
 }
 
-/* _______________________________________________________________________________________________HERO-PAGE _____________________________________________________________________________ */
 .hero-page{
     display: flex;
     height: 100vh;
@@ -216,7 +213,6 @@ header{
 }
 
 .hero-img   {
-    /* width: 100%; */
     height: 100vh;
 }
 .explore-section{
@@ -641,8 +637,6 @@ header{
     font-weight: 600;
 }
 
-/* _______________________________________________________________________________________________Footer _____________________________________________________________________________ */
-
 footer{
     display: flex;
     flex-direction: column;
@@ -738,7 +732,6 @@ footer{
     color: #ffffff;
     text-decoration: none;
 }
-/* --------------------------------MEDIA QUERY--------------------------------------------------------------------------- */
 @media (max-width: 1350px) {
     .container {
         max-width: 1250px !important;
@@ -1033,15 +1026,12 @@ footer{
     .explore-text{
         margin-top: 2rem;
         padding: 4rem 1rem;
-        /* width: 70%; */
     }
     .explore-img-cont {
-        /* margin-left: 0; */
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 2rem;
         padding: 0;
-        /* width: 80%; */
     }
     .explore-img{
         padding-left: 1rem;
@@ -1071,7 +1061,6 @@ footer{
     .marketchild1{
         display: block;
         width: 500px;
-        /* text-align: left; */
         text-align: center;
         padding-left: 2rem;
     }
@@ -1081,7 +1070,6 @@ footer{
     }
     .marketchild1 p{
         width: 400px;
-
     }
     .market-section{
         display: flex;
@@ -1090,7 +1078,6 @@ footer{
     }
     .market-video-cont{
         display: block;
-
     }
     .market-video{
         width: 50%;
@@ -1146,7 +1133,6 @@ footer{
     }
     .market-statistic-cont{
         display: block;
-        /* padding-left: 1rem; */
     }
 
     .market-stat img{
@@ -1165,12 +1151,9 @@ footer{
     .advert{
         display: grid;
         grid-template-columns: auto;
-        /* gap: 2; */
         align-items: center;
         justify-content: center;
         width: 70%;
-        /* padding-left: 1.5rem ; */
-        /* padding-bottom: 1rem; */
     }
     .advert .img-cont{
         padding-left: 0 ;
@@ -1187,12 +1170,6 @@ footer{
         align-items: center;
         height: 80vh;
     }
-    /* .advert .img-cont{
-        width: 90%;
-    }
-    .green-bg{
-        width: 90%;
-    } */
     .green-bg .cee-text{
         width: 300px;
         padding: 0;
@@ -1205,7 +1182,6 @@ footer{
 
     .customer-support{ 
         padding-left: 1rem;
-
     }
     
     .customer-support-text h4 {
@@ -1247,13 +1223,13 @@ footer{
     .customer-support-cont{
         display: grid;
         grid-template-columns: auto;
-        /* background-color: red; */
     }
     .marketplace-text,
     .Appstore-text,
     .support-text{
         width: 80%;
     }
+
     .green{
         font-size: .8rem;
     }
@@ -1277,10 +1253,7 @@ footer{
     .last-section h5{
         font-size: 1.4rem;
     }
-   
-    .to-top{
-        /* right: 18rem; */
-    }
+
     .last-btn{
         padding: 1rem 1.5rem;
     }
@@ -1310,7 +1283,6 @@ footer{
         padding: 0 2rem;
         height: 8vh;
         position: fixed;
-        
     }
     .hero-page{
         max-width: 500px ;
@@ -1343,7 +1315,7 @@ footer{
     }
 
     .explore-section{
-        height: 340vh;
+        height: 300vh;
         width: 480px;
     }
     .explore-text {
@@ -1430,7 +1402,6 @@ footer{
     } 
     .market-statistic-cont {
         display: block;
-        
     } 
     .market-stat{
         width: 350px;
@@ -1493,7 +1464,7 @@ footer{
         display: grid;
         grid-template-columns: 200px 200px;
         padding-left: 1rem;
-        margin: 0 ;
+        margin: 0;
     } 
     .footer-socials {
         width: 400px;
@@ -1503,7 +1474,7 @@ footer{
         align-items: center;
         justify-content: center;
         padding: 0;
-        margin: 0   ;
+        margin: 0;
      }
      .socials{
         width: 400px;
@@ -1521,13 +1492,7 @@ footer{
         padding: 0;
       }
 
-
-
-
-
-
-
-    /* ::-webkit-scrollbar {
+    ::-webkit-scrollbar {
         width: 2px;
     }
     
@@ -1538,6 +1503,6 @@ footer{
     ::-webkit-scrollbar-thumb {
         background: #808080;
         border-radius: 5px;
-    } */
+    }
 
 }
