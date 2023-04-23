@@ -1479,7 +1479,7 @@ footer{
     }
 
 }
-@media (max-width: 460px) {
+@media (max-width: 470px) {
     header {
         width: 100%;
         display: flex;
@@ -1524,7 +1524,7 @@ footer{
         width: 450px;
     }
     .explore-text {
-        padding: 4rem 1rem;
+        padding: 8rem 1rem 5rem 1rem;
         width: 450px;
     }   
     .explore-img-cont {
