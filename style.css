@@ -36,6 +36,9 @@ header{
 }
 .menubar{
     display: none;
+    border: none;
+    color: #000000;
+    outline: none;
 }
 .leftnav ul{
     display: flex;
@@ -1517,7 +1520,7 @@ footer{
     }
 
     .explore-section{
-        height: 300vh;
+        height: 350vh;
         width: 450px;
     }
     .explore-text {
@@ -1661,7 +1664,7 @@ footer{
 
     footer{
         width: 400px;
-        height: 120vh;
+        height: 140vh;
     }
     .footer-nav{
         width: 399px;
@@ -1714,7 +1717,7 @@ footer{
     .mobile-unordered1{
         display: flex;
         flex-direction: column;
-        padding: 0 1.1rem;
+        padding: 0 2rem;
         margin-bottom: 1.5rem;
     }
     .mobile-unordered1 li{
@@ -1725,7 +1728,7 @@ footer{
     .mobile-unordered2{
         display: flex;
         flex-direction: column;
-        padding: 0 1.1rem;
+        padding: 0 2rem;
     }
     .mobile-unordered2 li{
         display: flex;
@@ -1740,6 +1743,7 @@ footer{
         font-size: 1.2rem;
         background: transparent;
         border: none;
+        color: #000000;
     }
     .flex--{
         border: 1px solid #008060;
