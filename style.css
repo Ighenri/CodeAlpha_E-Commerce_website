@@ -44,7 +44,7 @@ header{
     justify-content: center;
 }
 
-.leftnav .parent-dropdown{
+.parent-dropdown{
    align-items: center;
    padding: 0 .5rem;
    position: relative;
@@ -107,19 +107,35 @@ header{
     text-decoration: none;
 }
 
-.dropdown-unordered{
+.dropdown-content{
     display: flex;
     flex-direction: column;
     font-size: .8rem;
     width: 250px;
-    overflow: auto;
+    overflow: none;
     z-index: 1;
     box-shadow: 0px 8px 16px #00000033;
     margin-top: 1rem;
     padding-bottom: .3rem;
     border-radius: 5px;
-}
+    position: absolute;
+    transition: all 0.1s cubic-bezier(0.16, 1, 0.5, 1);
+    background-color: white;
 
+    transform: translateY(.5rem);
+    /* visibility: hidden;
+    opacity: 0; */
+}
+/* .show{
+    transform: translateY(0rem);
+    visibility: visible;
+    opacity: 1;
+    z-index: 5;
+} */
+.arrow{
+    transform: rotate(180deg);
+    transition: .2s ease;
+}
 .dropdown-list{
     width: 100%;
     text-align: center;
@@ -145,6 +161,31 @@ header{
     border-left: 2px solid #008000;
     background-color: #eeeeee;
     
+}
+.mydropdown {
+    position: absolute;
+    top: 30px;
+    right: 7rem;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.mydropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mydropdown li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropbtn {
+    position: relative;
+    z-index: 1;
 }
 
 .hero-page{
