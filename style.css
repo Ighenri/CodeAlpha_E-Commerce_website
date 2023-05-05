@@ -1479,7 +1479,7 @@ footer{
     }
 
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
     header {
         width: 100%;
         display: flex;
